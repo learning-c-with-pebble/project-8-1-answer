@@ -15,7 +15,7 @@ int16_t numbers[NUMBERS_MAX];
 int16_t numbers_sorted[NUMBERS_MAX];
 
 // The original bubble sort function
-void bubble_sort(int16_t array[])
+void bubble_sort(int16_t *array)
 {	
  	for (int i=0; i < NUMBERS_MAX - 1; i++) {
     	for (int j=0; j < NUMBERS_MAX - 1; j++) {
